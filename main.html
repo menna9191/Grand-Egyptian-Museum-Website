@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Grand Egyptian Museum</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" href="./images/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>Grand Egyptian Museum</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#exhibits">Exhibits</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#booking">booking</a>
+      <a href="#Map">Map</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text animate">
+      <h2>Step Into Ancient Egypt</h2>
+      <p>Explore the wonders of one of the greatest civilizations in history.</p>
+      <button onclick="scrollToSection('about')">Explore Now</button>
+    </div>
+  </section>
+
+  <section id="about" class="animate">
+    <h2>About the Museum</h2>
+    <p>The Grand Egyptian Museum is located near the Giza pyramids and hosts the world's largest collection of Egyptian antiquities. 
+        The Museum hosts over 100,000 artifacts from ancient Egyptian civilization, including the complete Tutankhamun collection,
+         and many pieces will be on display for the first time The building is shaped like a chamfered triangle in plan.
+          It sits on a site 2 kilometres (1.2 miles) northwest of the pyramids, near a motorway interchange. 
+          The building's north and south walls line up directly with the Great Pyramid of Khufu and the Pyramid of Menkaure. 
+          The front of the museum includes a large plaza filled with date palms and a façade made of translucent alabaster stone.
+           Inside the main entrance is a large atrium, where large statues will be exhibited.</p>
+  </section>
+  <section id="schedule" class="animate">
+  <h2>🕰️ Museum Schedule</h2>
+  <p>Plan your visit to the Grand Egyptian Museum. Here's our weekly schedule:</p>
+  <div class="schedule-grid">
+    <div class="schedule-card">
+      <h3>Sunday – Thursday</h3>
+      <p>9:00 AM – 5:00 PM</p>
+    </div>
+    <div class="schedule-card">
+      <h3>Friday</h3>
+      <p>10:00 AM – 4:00 PM</p>
+    </div>
+    <div class="schedule-card">
+      <h3>Saturday</h3>
+      <p>Closed for maintenance</p>
+    </div>
+  </div>
+</section>
+
+
+  <section id="exhibits" class="animate">
+  <h2>🏺 Famous Exhibits</h2>
+  <div class="exhibit-container">
+    <div class="exhibit-card">
+      <img src="./images/12.jpg" alt="Tutankhamun Mask" />
+      <h3>Mask of Tutankhamun</h3>
+      <p>A legendary golden funerary mask of the boy king Tutankhamun, crafted more than 3,300 years ago.</p>
+    </div>
+    <div class="exhibit-card">
+      <img src="./images/13.jpg" alt="Ramses II Statue" />
+      <h3>Statue of Ramses II</h3>
+      <p>An enormous granite statue of one of the most powerful and celebrated pharaohs in ancient Egypt.</p>
+    </div>
+    <div class="exhibit-card">
+      <img src="images/halll.avif" alt="Sarcophagus of Yuya" />
+      <h3>Museum Hall</h3>
+      <p>a massive new museum located near the Giza pyramids,
+         designed to house and showcase over 100,000 ancient Egyptian artifacts, including the complete Tutankhamun collection.</p>
+    </div>
+  </div>
+</section>
+
+
+  <section id="gallery" class="animate gallery">
+    <h2>Gallery</h2>
+    <div class="images">
+      <img src="./images/1.jpg" alt="Tutankhamun" />
+      <img src="./images/tote.avif" alt="Museum Hall" />
+      <img src="./images/museum.jpeg" alt="Ramses II" />
+      <img src="./images/3.jpg" alt="Ramses II" />
+      <img src="./images/4.webp" alt="Ramses II" />
+      <img src="./images/5.jpg" alt="Ramses II" />
+      <img src="./images/6.jfif" alt="Ramses II" />
+      <img src="./images/7.jpg" alt="Ramses II" />
+      
+    </div>
+  </section>
+<section id="museum-tour" class="animate">
+  <h2>🎥 Tour in Grand Egyptian Museum</h2>
+  <p>Experience the magnificent halls, ancient treasures, and stunning architecture of the Grand Egyptian Museum through this virtual tour.</p>
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/-r2PRe3L-lw?si=_Cm8d8x3OfcY7x4C" title="YouTube video player" 
+      title="Grand Egyptian Museum Virtual Tour"
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+  <a href="https://www.youtube.com/embed/-r2PRe3L-lw?si=_Cm8d8x3OfcY7x4C" title="YouTube video player" target="_blank" class="tour-btn">
+    🎧 Watch Full Tour on YouTube
+  </a>
+</section>
+
+ <section id="booking">
+  <h2>Book Your Visit</h2>
+  <form id="bookingForm">
+    <input type="text" placeholder="Full Name" required />
+    <input type="email" placeholder="Email Address" required />
+    <input type="date" required />
+    <select required>
+      <option value="">Select Ticket Type</option>
+      <option>General Admission</option>
+      <option>Student</option>
+      <option>VIP Tour</option>
+    </select>
+    <button type="submit">Book Now</button>
+  </form>
+</section>
+<section id="Map">
+  <h2>📍 Find Us on the Map</h2>
+  <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.511508214079!2d31.117010875008557!3d29.99346572098532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584534984a8ad1%3A0x45764c5bc4ec261a!2sGrand%20Egyptian%20Museum%20(GEM)!5e0!3m2!1sen!2seg!4v1750162573892!5m2!1sen!2seg"
+      width="100%"
+      height="400"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+</section>
+<section id="follow-us" class="animate">
+  <h2>📱 Follow Us</h2>
+  <p>Stay connected with the Grand Egyptian Museum on social media</p>
+  <div class="social-icons">
+    <a href="https://www.facebook.com/share/1Fxh5W7rCP/?mibextid=wwXIfr" target="_blank" class="social facebook" aria-label="Facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.instagram.com/grandegyptianmuseum?igsh=MThlNHZkYnU1NWswOA==" target="_blank" class="social instagram" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://twitter.com" target="_blank" class="social twitter" aria-label="Twitter">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://youtube.com" target="_blank" class="social youtube" aria-label="YouTube">
+      <i class="fab fa-youtube"></i>
+    </a>
+  </div>
+</section>
+
+  <script src="./script.js"></script>
+  <script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const audio = document.getElementById('museum-audio');
+        if (audio && audio.paused) {
+          audio.play().catch(() => {}); // Avoid autoplay issues silently
+        }
+      }
+    });
+  }, { threshold: 0.6 });
+
+  const tourSection = document.getElementById("museum-tour");
+  if (tourSection) observer.observe(tourSection);
+</script>
+<button id="backToTop" title="Go to top">
+  ↑
+</button>
+<script>
+  const backToTopBtn = document.getElementById("backToTop");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      backToTopBtn.classList.add("show");
+    } else {
+      backToTopBtn.classList.remove("show");
+    }
+  });
+
+  backToTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior:"smooth"
+    });
+  });
+</script>
+
+</body>
+</html>
